@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+Disallow: /api/
+
+Host: https://ricamaesupa-portfolio.pages.dev
+Sitemap: https://ricamaesupa-portfolio.pages.dev/sitemap.xml
