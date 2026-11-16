@@ -1,0 +1,17 @@
+/* Portfolio text alignment: justify body paragraphs.
+   Loaded after the Tailwind CSS, so this overrides the default left alignment.
+   Centered text, headings/labels and inline elements keep their original alignment. */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.text-center p,
+p.text-center,
+p[class*="text-center"] {
+  text-align: center;
+}
+p[class*="uppercase"],
+p.font-bold,
+p.inline-flex {
+  text-align: left;
+}
