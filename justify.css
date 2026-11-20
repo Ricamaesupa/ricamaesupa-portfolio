@@ -15,3 +15,8 @@ p.font-bold,
 p.inline-flex {
   text-align: left;
 }
+
+/* Fixed-nav clearance (2026-11-20): the top nav is fixed, so every page needs
+   top space or first headings sit under it; and bottom space so the last
+   content can scroll clear of the floating bottom dock. */
+body{padding-top:5rem;padding-bottom:7rem}
